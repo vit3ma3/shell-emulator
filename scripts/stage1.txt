@@ -1,0 +1,6 @@
+ls
+cd documents
+hello
+
+ls extra args
+exit
