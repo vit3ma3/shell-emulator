@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+PYTHON="${PYTHON:-python}"
+
+"$PYTHON" -m src.main --vfs examples/vfs/nested --script scripts/no_such_script.sh || true
